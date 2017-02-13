@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4AAE4CFC1E51D85400732B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE4CFB1E51D85400732B3B /* AppDelegate.swift */; };
-		4AAE4CFE1E51D85400732B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE4CFD1E51D85400732B3B /* ViewController.swift */; };
+		4AAE4CFE1E51D85400732B3B /* EvaluatePolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE4CFD1E51D85400732B3B /* EvaluatePolicyVC.swift */; };
 		4AAE4D011E51D85400732B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE4CFF1E51D85400732B3B /* Main.storyboard */; };
 		4AAE4D031E51D85400732B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE4D021E51D85400732B3B /* Assets.xcassets */; };
 		4AAE4D061E51D85400732B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE4D041E51D85400732B3B /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		4AAE4CF81E51D85400732B3B /* TouchIDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchIDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAE4CFB1E51D85400732B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AAE4CFD1E51D85400732B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AAE4CFD1E51D85400732B3B /* EvaluatePolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluatePolicyVC.swift; sourceTree = "<group>"; };
 		4AAE4D001E51D85400732B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AAE4D021E51D85400732B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AAE4D051E51D85400732B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				4AAE4CFB1E51D85400732B3B /* AppDelegate.swift */,
-				4AAE4CFD1E51D85400732B3B /* ViewController.swift */,
+				4AAE4CFD1E51D85400732B3B /* EvaluatePolicyVC.swift */,
 				4AAE4CFF1E51D85400732B3B /* Main.storyboard */,
 				4AAE4D021E51D85400732B3B /* Assets.xcassets */,
 				4AAE4D041E51D85400732B3B /* LaunchScreen.storyboard */,
@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					4AAE4CF71E51D85400732B3B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9LJHCTN42A;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AAE4CFE1E51D85400732B3B /* ViewController.swift in Sources */,
+				4AAE4CFE1E51D85400732B3B /* EvaluatePolicyVC.swift in Sources */,
 				4AAE4CFC1E51D85400732B3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +261,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LJHCTN42A;
 				INFOPLIST_FILE = TouchIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kaibo.TouchIDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +275,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LJHCTN42A;
 				INFOPLIST_FILE = TouchIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kaibo.TouchIDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
