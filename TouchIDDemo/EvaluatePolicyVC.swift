@@ -43,7 +43,6 @@ class EvaluatePolicyVC: UIViewController {
                         }
                     }
                 }
-                
             })
         } else if let error = authError {
             label.text = error.localizedDescription
@@ -76,7 +75,6 @@ class EvaluatePolicyVC: UIViewController {
                             // Deal with error
                         }
                     }
-                    
                 })
             } else if let error = authError {
                 label.text = error.localizedDescription
